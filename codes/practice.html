@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #myForm {
+            width: 500px;
+        }
+
+        .d-full {
+            width: 100%;
+        }
+
+        .d-half {
+            width: 50%;
+            display: inline;
+        }
+
+        .btn{
+            padding:5px;
+            width:60px;
+        }
+
+        .send{
+            background-color: lawngreen;
+            color:white;
+        }
+    </style>
+</head>
+
+<body style="text-align: center;">
+
+
+    <div id="myForm">
+        <form style="width:100%">
+            <div>
+                <input class="d-half" type="text" name="first_name" placeholder="First Name">
+                <input class="d-half" type="text" name="last_name" placeholder="Last Name">
+            </div>
+            <div>
+                <input class="d-full" type="email" name="email" placeholder="Email">
+            </div>
+            <div>
+                <input class="d-full" type="subject" name="subject" placeholder="Subject">
+            </div>
+            <div>
+                <input class="d-full" type="message" name="message" placeholder="Message">
+            </div>
+            <div>
+
+                <!-- Button submit -->
+                <button class="send btn" type="send">Send</button>
+                <!-- Button submit -->
+                <!-- <button type="submit">Submit</button> -->
+                <button class=" btn reset" type="reset">Reset</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>

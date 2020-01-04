@@ -1,0 +1,51 @@
+p {
+    border: 1px solid black;
+}
+
+.pb-per {
+    padding-bottom: 5%;
+}
+
+.pb-px {
+    padding-bottom: 15px;
+}
+
+.pt-per {
+    padding-top: 5%;
+}
+
+.pt-px {
+    padding-top: 15px;
+}
+
+.pl-per {
+    padding-left: 5%;
+}
+
+.pl-px {
+    padding-left: 15px;
+}
+
+.pr-per {
+    padding-right: 5%;
+}
+
+.pr-px {
+    padding-right: 15px;
+}
+
+.p-px {
+    padding: 15px;
+}
+
+.p-xy {
+    padding: 10px 2%;
+}
+
+.p-3 {
+    padding: 10px 2% 10px;
+}
+
+.p-4 {
+    padding: 10px 2% 10px 10px;
+}
